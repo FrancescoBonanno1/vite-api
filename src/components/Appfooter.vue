@@ -3,7 +3,7 @@
 
 
 <template>
-    <h1>footeer</h1>
+    <h1>Provided by : ScamSoft.ru</h1>
 </template>
 
 
