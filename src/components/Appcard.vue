@@ -23,7 +23,7 @@ export default {
 
         },
         stampa() {
-            axios.get("https://api.openbrewerydb.org/v1/breweries/search?query=" + this.store.Text + "&per_page=10").then((riscrivi) => {
+            axios.get("https://api.openbrewerydb.org/v1/breweries?by_country=austria&by_name=" + this.store.Text + "&per_page=10").then((riscrivi) => {
                 this.store.Info = riscrivi.data
                 console.log(riscrivi);
             }
